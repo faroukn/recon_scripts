@@ -10,6 +10,7 @@ echo -e "${ER}Error Where Is Domain Bro ???${CE}"
 echo "Ex:./recon_waybackV.sh domain.com"
 exit
 else
+echo -e "###### By Faroukn ######"
 echo -e "${LSH}[*]waybackurls Started ...${CE}"
 echo $1 | waybackurls > waybackurls.txt
 echo -e "${DN}[+]Done.${CE}\n"
