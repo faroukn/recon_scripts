@@ -13,7 +13,7 @@ Install my-project with npm
   cd recon_scripts
 ```
     
-## Deployment
+## Usage
 
 To deploy this project run
 
@@ -21,12 +21,12 @@ To deploy this project run
 ```bash
   ./recon_subenum.sh example.com
 ```
-
+![Alt text](/screenshots/1.png?raw=true "Subenum")
 ### Enumerate archive urls and pass it to gf tool 
 ```bash
   ./recon_waybackV.sh example.com
 ```
-
+![Alt text](/screenshots/2.png?raw=true "Wayback")
 ### Enumerate asn and cidr
 ```bash
   ./recon_asncidr.sh example.com
